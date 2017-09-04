@@ -1,4 +1,12 @@
 GIT
+  remote: https://github.com/spree-contrib/spree_mail_settings.git
+  revision: 9aa74685b2650c21ff9d88b24f6811ecd5cb6d1e
+  specs:
+    spree_mail_settings (3.2.0.alpha)
+      spree_auth_devise (>= 3.1.0, < 4.0)
+      spree_backend (>= 3.1.0, < 4.0)
+
+GIT
   remote: https://github.com/spree/spree_i18n.git
   revision: 5c16b78cf7c111b5a2b9dd0476bae4ab6e1e2f4b
   specs:
@@ -393,6 +401,7 @@ DEPENDENCIES
   spree_auth_devise (~> 3.3)
   spree_gateway (~> 3.3)
   spree_i18n!
+  spree_mail_settings!
   sqlite3
   turbolinks (~> 5)
   tzinfo-data
